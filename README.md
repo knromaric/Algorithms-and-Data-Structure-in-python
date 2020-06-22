@@ -30,3 +30,13 @@ Given an integer, return an integer that is the reverse ordering numbers.
     reverse_int(-15) -> -51   
 
     reverse_int(-90) -> -9   
+
+### Finding the most repetitive character in a string
+ *Directions   
+ 
+    given a string, return the character that is most commonly used in the string   
+
+ *examples:   
+
+    max_char('abccccccc') -> 'c'
+    max_char('apple 1231111') -> '1'
