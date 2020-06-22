@@ -22,12 +22,27 @@ def capitalize_v2(text):
     
     return ' '.join(words_list_cap)
 
+def capitalize_v3(text): 
+    result = text[0].upper()
+    for idx in range(1, len(text)): 
+        if text[idx-1] == ' ': 
+            result += text[idx].upper()
+        else: 
+            result += text[idx]
+
+    return result
+
+
 # Testing 
 
-print(capitalize('a short sentence') )
-print(capitalize('a lazy fox') )
-print(capitalize('look, it is working!') )
+# print(capitalize('a short sentence') )
+# print(capitalize('a lazy fox') )
+# print(capitalize('look, it is working!') )
 
-print(capitalize_v2('a short sentence') )
-print(capitalize_v2('a lazy fox') )
-print(capitalize_v2('look, it is working!') )
+# print(capitalize_v2('a short sentence') )
+# print(capitalize_v2('a lazy fox') )
+# print(capitalize_v2('look, it is working!') )
+
+print(capitalize_v3('a short sentence') )
+print(capitalize_v3('a lazy fox') )
+print(capitalize_v3('look, it is working!') )
