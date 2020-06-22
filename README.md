@@ -42,7 +42,8 @@ given a string, return the character that is most commonly used in the string
 
  * examples:   
 
-max_char('abccccccc') -> 'c'
+max_char('abccccccc') -> 'c'  
+
 max_char('apple 1231111') -> '1'
 
 ### FizzBuzz problem
@@ -68,8 +69,29 @@ Given an array and chunk size, divide the array into many subarrays where each s
 
 * examples  
 
-chunk([1,2,3,4], 2) --> [[1, 2], [3, 4]]
-chunk([1,2,3,4,5], 2) --> [[1,2], [3, 4], [5]]
-chunk([1,2,3,4,5,6,7,8], 3) -->[[1,2,3],[4,5,6],[7,8]]
-chunk([1,2,3,4,5], 4) --> [[1,2,3,4],[5]]
-chunk([1,2,3,4,5], 10) --> [[1,2,3,4,5]]
+chunk([1,2,3,4], 2) --> [[1, 2], [3, 4]]  
+
+chunk([1,2,3,4,5], 2) --> [[1,2], [3, 4], [5]]  
+
+chunk([1,2,3,4,5,6,7,8], 3) -->[[1,2,3],[4,5,6],[7,8]]  
+
+chunk([1,2,3,4,5], 4) --> [[1,2,3,4],[5]]  
+
+chunk([1,2,3,4,5], 10) --> [[1,2,3,4,5]]  
+
+### Anagrams problem  
+
+* Directions   
+
+Check to see if two provided strings are anagrams of eachother
+One string is anagram of another if it uses same character in 
+the same quantity. Only consider characters, not spaces or punctuations
+Consider capital letters to be the same as lower letters
+
+* examples  
+
+anagrams('rail safety', 'fairy tales') --> True  
+
+anagrams('RAIL! SAFETY!',  'fairy tales') --> True  
+
+anagrams('Hi There', 'Bye there') --> False   
