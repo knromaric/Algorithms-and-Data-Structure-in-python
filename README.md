@@ -14,5 +14,19 @@ given a string, return a new string with
 
  * examples   
 
-    palindrome("abba") -> True
+    palindrome("abba") -> True  
+
     palindrome("abcde") -> False
+
+### Reverse Integers
+Given an integer, return an integer that is the reverse ordering numbers.
+*examples:
+    reverse_int(15) -> 51  
+
+    reverse_int(981) -> 189   
+
+    reverse_int(500) -> 5   
+
+    reverse_int(-15) -> -51   
+
+    reverse_int(-90) -> -9   
