@@ -109,3 +109,16 @@ capitalize('a short sentence') ---> 'A Short Sentence'
 capitalize('a lazy fox') ---> 'A Lazy Fox'  
 
 capitalize('look, it is working!') ---> 'Look, It Is Working!'
+
+
+
+### Dynamic Array (list-like)
+
+Create a custom Dynamic array class!
+Use the built in library (ctypes). check out the documentation for more info. but its basically going to be used here as a raw array from the ctypes module.   
+
+** create methods **
+
+* len - to get the lenghth of the array
+* append - to add element to array
+* _resize - private method to resize the array.
