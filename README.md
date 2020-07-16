@@ -113,7 +113,7 @@ capitalize('look, it is working!') ---> 'Look, It Is Working!'
 
 
 ### Dynamic Array (list-like)
-
+* Directions
 Create a custom Dynamic array class!
 Use the built in library (ctypes). check out the documentation for more info. but its basically going to be used here as a raw array from the ctypes module.   
 
@@ -125,6 +125,7 @@ Use the built in library (ctypes). check out the documentation for more info. bu
 
 
 ### Array Pair of sum
+* Directions
 Given an integer array, output all the **unique** pairs that sum up to a specific value **k**.  
 
 so the input:   
@@ -133,3 +134,20 @@ so the input:
 would return **2 pairs**:   
         (1,3)  
         (2,2)
+
+### Find The Missing Element   
+
+* Directions  
+
+Consider an array of non-negative integers. A second array is formed by shuffling the elements of the first array and deleting a random element. Given these two arrays, find which element is missing in the second array.  
+
+* Examples  
+
+Here is an example input, the first array is shuffled and the number 5 is removed to construct the second array.   
+
+    **input**
+    finder([1,2,3,4,5,6,7],[3,7,2,1,4,6])
+
+    **output**
+    >> 5 is the missing number
+
