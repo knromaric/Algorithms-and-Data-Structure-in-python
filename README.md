@@ -149,5 +149,15 @@ Here is an example input, the first array is shuffled and the number 5 is remove
     finder([1,2,3,4,5,6,7],[3,7,2,1,4,6])
 
     **output**
-    >> 5 is the missing number
+    >> 5 is the missing number   
 
+
+### Largest Continuous Sum 
+
+* Directions   
+
+Given an array of integers(positive and negative) find the largest continous sum.   
+
+* Examples    
+
+large_cont_sum([1,2,-1,3,4,10,10,-10,-1]) >>>  29
