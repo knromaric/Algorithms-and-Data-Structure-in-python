@@ -119,6 +119,17 @@ Use the built in library (ctypes). check out the documentation for more info. bu
 
 ** create methods **
 
-* len - to get the lenghth of the array
+* len - to get the length of the array
 * append - to add element to array
 * _resize - private method to resize the array.
+
+
+### Array Pair of sum
+Given an integer array, output all the **unique** pairs that sum up to a specific value **k**.  
+
+so the input:   
+        pair_sum([1,3,2,2], 4)  
+
+would return **2 pairs**:   
+        (1,3)  
+        (2,2)
