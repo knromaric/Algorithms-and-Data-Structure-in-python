@@ -180,3 +180,12 @@ The function should also be case sensitive, so that a string 'AAAaaa' returns 'A
 
 
 
+### Unique Characters In String
+
+* Directions   
+
+Given a string, determine if it is compreised of all unique characters.   
+
+* Examples:   
+    uni_char('abcde') >>> True   
+    uni_char('aabcd') >>> False
