@@ -189,3 +189,24 @@ Given a string, determine if it is compreised of all unique characters.
 * Examples:   
     uni_char('abcde') >>> True   
     uni_char('aabcd') >>> False
+
+### Build STEPS 
+
+* Directions   
+
+Write a function that accepts a positive number N.
+The function should console log a step shape with N levels using # character. Make sure the step has spaces on the right hand side!   
+
+* Examples   
+    Steps(2):    
+        '# '
+        '##'   
+    steps(3):   
+        '#  '
+        '## '
+        '###'   
+    steps(3):   
+        '#   '
+        '##  '
+        '### '
+        '####'
