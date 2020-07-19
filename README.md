@@ -205,8 +205,28 @@ The function should console log a step shape with N levels using # character. Ma
         '#  '
         '## '
         '###'   
-    steps(3):   
+    steps(4):   
         '#   '
         '##  '
         '### '
-        '####'
+        '####'    
+
+### Build pyramid shape 
+
+* Directions   
+
+Write a function that accepts a positive number N.
+The function should console log a pyramid shape with N levels using # character. Make sure the pyramid has spaces on both the left *and* right hand sides!   
+
+* Examples   
+    Steps(1):    
+        '#'
+   
+    steps(2):   
+        ' # '
+        '###'   
+
+    steps(3):   
+        '  #  '
+        ' ### '
+        '#####'
