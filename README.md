@@ -260,3 +260,15 @@ write a function that accepts an integer N and returns a NxN SPIRAL MATRIX.
          [12,13,14,5],
          [11,16,15,6],
          [10,9, 8, 7]]
+
+
+### Stack class implementation 
+
+A stack is defined as an ordered collection of items where items are added to and removed from the end called the "top". Stacks are ordered LIFO(Last In First Out). The stack operations are given below.   
+
+* **stack()** creates a new stack that is empty. it returns an empty stack    
+* **push(item)** adds a new item to the top of the stack. it takes the item and returns nothing   
+* **pop()** removes the top item from teh stack. it needs no parameters and returns the item. The stack is modified.   
+* **peek()** returns the top item from the stack but does not remove it. It needs no parameters. the stack is not modified   
+* **is_empty()** tests to see whether the stack is empty. it needs no parameters and returns a boolean value   
+* **size()** returns the number of items on the stack. it needs no parameters and returns an integer.   
