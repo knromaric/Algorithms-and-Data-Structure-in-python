@@ -280,4 +280,15 @@ our Queue class must contain the following methods :
 
 * **enqueue(item)** adds a new item to the rear of the queue. it needs the item and returns nothing. 
 * **is_empty()** tests to see whether the queue is empty. it needs no parameters and returns a boolean value.   
-* **size()** returns the number of items in the queue. it needs no parameters and returns an integer.
+* **size()** returns the number of items in the queue. it needs no parameters and returns an integer.   
+
+### Deque class implementation  
+
+here are the Deque methods and Attributes:    
+* Deque() creates a new deque that is empty. It needs no parameters and returns an empty deque.  
+* addFront(item) adds a new item to the front of the deque. It needs the item and returns nothing.  
+* addRear(item) adds a new item to the rear of the deque. it needs the item and returns nothing .
+* removeFront() removes the front item from the deque. it takes no parameters and return the item. The deque is modified.
+* removeRear() removes the rear item from the Deque. it needs no parameters and returns the item. The deque is modified 
+* isEmpty() test to see whether the deque is empty. it takes no parameters and returns a boolean value   
+* size() returns the number of items in the deque. it needs no parameters and returns an integer.
