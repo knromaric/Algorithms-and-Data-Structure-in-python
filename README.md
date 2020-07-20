@@ -272,3 +272,12 @@ A stack is defined as an ordered collection of items where items are added to an
 * **peek()** returns the top item from the stack but does not remove it. It needs no parameters. the stack is not modified   
 * **is_empty()** tests to see whether the stack is empty. it needs no parameters and returns a boolean value   
 * **size()** returns the number of items on the stack. it needs no parameters and returns an integer.   
+
+### Queue class implementation  
+
+our Queue class must contain the following methods :   
+* **Queue()** creates a new queue that is empty and returns and empty queue
+
+* **enqueue(item)** adds a new item to the rear of the queue. it needs the item and returns nothing. 
+* **is_empty()** tests to see whether the queue is empty. it needs no parameters and returns a boolean value.   
+* **size()** returns the number of items in the queue. it needs no parameters and returns an integer.
