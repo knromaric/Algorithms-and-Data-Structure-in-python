@@ -291,4 +291,13 @@ here are the Deque methods and Attributes:
 * removeFront() removes the front item from the deque. it takes no parameters and return the item. The deque is modified.
 * removeRear() removes the rear item from the Deque. it needs no parameters and returns the item. The deque is modified 
 * isEmpty() test to see whether the deque is empty. it takes no parameters and returns a boolean value   
-* size() returns the number of items in the deque. it needs no parameters and returns an integer.
+* size() returns the number of items in the deque. it needs no parameters and returns an integer.   
+
+
+### Balanced Parenthesis Check
+
+* Directions 
+
+Given a string of opening and closing parentheses, check whether it's balanced. We have 3 types of parentheses: round brackets: (), square brackets: [], and curly brackets: {}. Assume that the string doesn't contain any other character than these, no spaces words or numbers. As a reminder, balanced parentheses require every opening parenthesis to be closed in the reverse order opened. For example '([]) is balanced but '([)]' is not.
+
+You can assume the input string has no spaces. 
