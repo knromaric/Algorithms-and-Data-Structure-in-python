@@ -305,3 +305,20 @@ You can assume the input string has no spaces.
 ### Implement a Queue - Using Two Stacks
 
 Given the stack class below, Implement a queue class using two stacks! Use a python list data structure as your stack. 
+
+
+### Singly Linked List Implementation   
+
+A singly linked list - an ordered list of items as individual Nodes that have pointers to other Nodes. Here we implement the Node class.   
+
+### Doubly Linked List Implementation
+
+Implementation of doubly linked list
+
+
+### Singly Linked List Cycle Check
+
+* Directions   
+Given a singly linked list, write a function which takes in the first node in a singly linked list and returns a boolean indicating if the linked list contains a "cycle".
+
+A cycle is when a node's next point actually points back to a previous node in the list. This is also sometimes known as a circularly linked list.
