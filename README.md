@@ -327,5 +327,14 @@ A cycle is when a node's next point actually points back to a previous node in t
 ### Linked List Reversal
 
 * Directions   
-Write a function to reverse a Linked List in place. The function will take in the head of the list as input and return the new head of list.
+Write a function to reverse a Linked List in place. The function will take in the head of the list as input and return the new head of list.     
+
+
+
+
+### Linked List Nth to Last Node
+
+Write a function that takes a head node and an integer value n and then returns the nth to last node in the linked list.
+
+
 
