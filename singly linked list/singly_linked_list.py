@@ -16,5 +16,5 @@ c = Node(6)
 a.nextnode = b
 b.nextnode = c
 
-print(a.nextnode.value)
+# print(a.nextnode.value)
 
